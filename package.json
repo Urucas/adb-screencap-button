@@ -1,0 +1,28 @@
+{
+  "name": "adb-screencap-button",
+  "version": "0.0.1",
+  "description": "Take Android screenshots from your Task Bar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urucas/adb-screencap-button.git"
+  },
+  "keywords": [
+    "android",
+    "adb",
+    "screencap",
+    "screenshot"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/adb-screencap-button/issues"
+  },
+  "homepage": "https://github.com/Urucas/adb-screencap-button#readme",
+  "devDependencies": {
+    "menubar": "^4.1.2"
+  }
+}
