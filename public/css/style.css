@@ -1,0 +1,39 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+#preloader {
+  text-align: center;
+  font-size: 3em;
+  color: #000;
+  margin-left: 45%;
+  margin-top: 150px;
+  visibility: hidden;
+  position: absolute;
+  z-index: 9999999999;
+}
+
+#takeBtt {
+  position: fixed;
+  bottom:0px;
+  background:#007ACC;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  color:#fff;
+  font-size: 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border:none;
+  display:block;
+  height:40px;
+  cursor:pointer;
+}
+
+#takeBtt.disabled {
+  background:#ccc;
+}
+
+#preview {
+  margin-bottom: 30px;
+}

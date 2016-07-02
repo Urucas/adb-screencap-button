@@ -2,8 +2,9 @@
   "name": "adb-screencap-button",
   "version": "0.0.1",
   "description": "Take Android screenshots from your Task Bar",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +25,9 @@
   "homepage": "https://github.com/Urucas/adb-screencap-button#readme",
   "devDependencies": {
     "menubar": "^4.1.2"
+  },
+  "dependencies": {
+    "adb-screencap": "^1.0.7",
+    "electron-prebuilt": "^1.2.5"
   }
 }
