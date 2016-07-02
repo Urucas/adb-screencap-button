@@ -5,6 +5,8 @@ Take Android screenshots from your Task Bar
 
 #TODO
 * Add support for multiples devices
+* Add close button
+* Create release
 
 #Requirements 
 * ADB
