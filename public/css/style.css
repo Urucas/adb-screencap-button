@@ -14,18 +14,33 @@ body {
   z-index: 9999999999;
 }
 
-#takeBtt {
+#footer {
   position: fixed;
   bottom:0px;
-  background:#007ACC;
   width:100%;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+#takeBtt {
+  background:#007ACC;
   color:#fff;
   font-size: 1em;
+  width: 90%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border:none;
-  display:block;
+  display:inline-block;
+  height:40px;
+  cursor:pointer;
+
+}
+
+#closeBtt {
+  background:#007ACC;
+  color:#fff;
+  font-size: 1em;
+  width: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border:none;
+  display:inline-block;
   height:40px;
   cursor:pointer;
 }
