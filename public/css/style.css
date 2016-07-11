@@ -14,35 +14,34 @@ body {
   z-index: 9999999999;
 }
 
-#footer {
-  position: fixed;
-  bottom:0px;
-  width:100%;
-}
-
 #takeBtt {
+  position: fixed;
   background:#007ACC;
   color:#fff;
   font-size: 1em;
-  width: 90%;
+  bottom:0px;
+  width:100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border:none;
   display:inline-block;
   height:40px;
   cursor:pointer;
-
 }
 
 #closeBtt {
-  background:#007ACC;
+  position: fixed;
+  background:#333;
   color:#fff;
   font-size: 1em;
-  width: 10%;
+  width: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border:none;
   display:inline-block;
   height:40px;
   cursor:pointer;
+  z-index: 99999;
+  bottom: 0px;
+  right: 0px;
 }
 
 #takeBtt.disabled {

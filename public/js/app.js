@@ -1,6 +1,7 @@
 var electron = require('electron');
 var img = document.getElementById("preview");
 var btt = document.getElementById("takeBtt");
+var closeBtt = document.getElementById("closeBtt");
 var preloader = document.getElementById("preloader");
 var ipcRenderer = electron.ipcRenderer;
 function takeScreenshot() {
@@ -17,3 +18,7 @@ ipcRenderer.on("screencap-ready", function(ev, msg){
   btt.removeAttribute("disabled");
   preview.src = msg;
 });
+close.onclick = function() {
+  console.log("close");
+  ipcRenderer.send("close");
+}
