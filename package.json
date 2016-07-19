@@ -27,7 +27,8 @@
     "menubar": "^4.1.2"
   },
   "dependencies": {
-    "adb-screencap": "^1.0.7",
+    "adb-screencap": "^1.0.8",
+    "adbjs": "^0.2.6",
     "electron-prebuilt": "^1.2.5"
   }
 }

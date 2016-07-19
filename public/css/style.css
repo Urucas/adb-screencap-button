@@ -51,3 +51,7 @@ body {
 #preview {
   margin-bottom: 30px;
 }
+
+#devices{
+  width: 100%;
+}
